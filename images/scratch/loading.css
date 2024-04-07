@@ -1,0 +1,50 @@
+* { 
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.loading{
+    position:realative;
+}
+
+.item{
+    display: inline-block;
+    margin: 0 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    animation:load-ball 0.5s ease-in-out infinite alternate;
+}
+.ball-1 {
+    background-color:rgb(066, 133, 244);
+    animation-delay:0.1s;
+}
+.ball-2 {
+    background-color:rgb(234, 067, 053);
+    animation-delay:0.1s;
+}
+.ball-3 {
+    background-color:rgb(251, 188, 005);
+    animation-delay:0.1s;
+}
+.ball-4 {
+    background-color:rgb(052, 168, 083);
+    animation-delay:0.1s;
+}
+@keyframes load-ball {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform:translateY(-13px);
+    }
+}
