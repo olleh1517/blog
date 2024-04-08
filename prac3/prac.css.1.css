@@ -1,5 +1,8 @@
 body{
     margin:100px;
+    border:3px solid;
+    display: flow-root;
+
 }
 .box{
     border:5px solid;
@@ -54,10 +57,14 @@ span{
     height:100px;
     display:inline-block; /*block, inline, inline-block, none */
 }
-
+c{
+    border: 3px bolid;
+    display: flow-root;
+}
 #img1{
     float: left;
-    margin-right:10px;
+    margin-right:30px;
+    margin-left:30px;
 
 }
 #img2{

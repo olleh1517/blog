@@ -31,6 +31,7 @@ h3{
 .box{
     background-color: white;
     border:2px solid;
+    border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
     height:auto;/*px*/
@@ -61,7 +62,7 @@ h3{
     width:100px;
     height:100px;
     background-color:blue;
-    position:fixed; /*sticky based on scroll position*/
+    position:sticky; /*sticky based on scroll position*/
     top: 600px;
     left:300px;    
 }

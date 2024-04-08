@@ -1,0 +1,84 @@
+a:link{
+    color:rgb(161, 161, 234);
+}
+a:hover{
+    color:rgb(36, 142, 234);
+    font-size:1.1em;
+}
+a:active{
+    color:blue;
+    font-size:1.1em;
+}
+a:visited{
+    color: greenyellow;
+}
+
+li:hover{
+    background-color:aqua;
+    
+}
+li:nth-child(even){
+    background-color: black;
+}
+#greeting p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+.pagination{
+    text-align: center;
+}
+.pagination b{
+    color:black;
+    text-decoration: none;
+    padding: 8px ;
+    display: inline-block;
+}
+.pagination b.active{
+    background-color: aqua;
+}
+.pagination b:hover:not(.active){
+    background-color: grey;
+}
+.dropdown{
+    display:inline-block;
+}
+
+.dropdown button{
+    background-color: rgb(200, 193, 193);
+    color:white;
+    padding: 10px 15px;
+    border:none;
+    cursor:pointer;
+}
+.dropdown d{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.dropdown .content{
+    display:none;
+    position: absoulte;
+    background-color: grey;
+    width:100px;
+
+}
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown:hover button{
+    background-color: rgb(190, 218, 242);
+}
+
+.dropdown d:hover{
+    background-color:beige;
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: grey;
+}
